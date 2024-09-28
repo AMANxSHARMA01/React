@@ -5,20 +5,25 @@ import './App.css'
 
 function App() {
   
-  let [counter, setCounter] = useState(64)
+  let [counter, setCounter] = useState(3)
 
   //let counter = 75
 
   const addValue =() => {
-    counter = counter + 1 
-    setCounter (counter)
-    // console.log(counter);
+  if (counter < 20) {
+     setCounter (counter + 1)
+    }else{
+      alert("Value should be less than 20")
+    }
   }
-  const removeValue = ()=> {
-    counter = counter - 1
-    setCounter(counter)
-    // console.log(counter);
 
+  const removeValue = ()=> {
+
+    if(counter < 1){
+      alert("Value should be more than 1")
+    }else{
+      setCounter(counter - 1)
+  }
   }
   
 
