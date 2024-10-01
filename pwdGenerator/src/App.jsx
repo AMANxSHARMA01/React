@@ -1,5 +1,5 @@
-import { useState, useCallback, useEffect, useRef } from 'react'
-
+import { useState, useCallback, useEffect, useRef } from 'react';
+import { Button } from "@material-tailwind/react";
 
 function App() {
 
@@ -45,6 +45,7 @@ function App() {
   
   return (
 
+
     <>
     
     <div className='w-full max-w-md mx-auto shadow-md
@@ -61,12 +62,10 @@ function App() {
         readOnly 
         ref={passwordRef}
         />
-        
-        <button 
+        <Button className='outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0' 
         onClick={copyToClip}
-        className='outline-none bg-blue-700 text-white 
-        px-3 py-0.5 shrink-0'
-        >Copy</button>
+        >Copy</Button>
+        
       
       </div>
       <div className='flex text-sm gap-x-2'>
