@@ -8,7 +8,7 @@
    > - Handling dependencies.
 
 <p align="center">
-  <img src="[http://some_place.com/image.png](https://github.com/user-attachments/assets/fd0c95f7-7c88-416c-a15d-9aa1704a2595)" />
+  <img src="https://github.com/user-attachments/assets/fd0c95f7-7c88-416c-a15d-9aa1704a2595" />
 </p>
    
 
