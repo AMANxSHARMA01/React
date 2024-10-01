@@ -7,5 +7,8 @@
    > - Target a particular element using the useRef hook.
    > - Handling dependencies.
 
+<p align="center">
+  <img src="[http://some_place.com/image.png](https://github.com/user-attachments/assets/fd0c95f7-7c88-416c-a15d-9aa1704a2595)" />
+</p>
    
-![Screenshot 2024-10-01 153948](https://github.com/user-attachments/assets/fd0c95f7-7c88-416c-a15d-9aa1704a2595)
+
